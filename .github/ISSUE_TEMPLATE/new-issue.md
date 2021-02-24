@@ -7,14 +7,14 @@ assignees: ''
 
 ---
 
-**Summary**
+**Feature Summary**
 
 [summary]
 
-**Intended Outcome**
+**Intended Outcome of the feture**
 
 [intended_outcome]
 
-**How will it work?**
+**How will it work once completed?**
 
 [how_does_it_work]
