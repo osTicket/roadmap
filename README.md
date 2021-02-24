@@ -42,4 +42,4 @@ Any statement in this repository that is not purely historical is considered a f
 
 ## Attribution
 
-This roadmap repository is adapted from the [GitHub public roadmap](https://github.com/github/roadmap) under Creative Commons LICENSE.
+This roadmap repository is adapted from the [GitHub public roadmap](https://github.com/github/roadmap) under Creative Commons [license](LICENSE).
