@@ -8,7 +8,7 @@ The roadmap repository is for communicating osTicket’s roadmap. Issues are cur
 
 Every item on the roadmap is an issue, with a label that indicates each of the following:
 
-- A **release phase** that describes the next expected phase of the roadmap item. See below for a guide to [release phases](#Release phases).
+- A **release phase** that describes the next expected phase of the roadmap item. See below for a guide to [release phases](#release-phases).
 - Once a feature is delivered, the **shipped** label will be applied to the roadmap issue and the issue will be closed with a comment linking to the relevant changelog.
 
 ## Release phases
