@@ -11,7 +11,7 @@ assignees: ''
 
 [summary]
 
-**Intended Outcome of the feture**
+**Intended Outcome of the feature**
 
 [intended_outcome]
 
