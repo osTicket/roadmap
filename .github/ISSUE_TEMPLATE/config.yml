@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: osTicket Community Forum
+    url: https://forum.osticket.com/
+    about: Ask questions and discuss the roadmap here.
+  - name: osTicket Support - Feedback
+    url: https://osticket.com/contact-us/
+    about: Share your feedback with the GitHub team.
