@@ -1,40 +1,50 @@
 # osTicket Public Roadmap
 
-In this repository, you can find the [official osTicket public roadmap](https://github.com/osticket/roadmap/projects/1). Learn about what features we're working on, what stage they're in, and when we expect to have them available. Have any questions or comments about items on the roadmap? Join the discussion over on the [osTicket Community Forum](https://forum.osticket.com/).
+In this repository, you can find the [official osTicket public roadmap](https://github.com/orgs/osTicket/projects/2). Learn about what features we're working on, what stage they're in, and when we expect to have them available. Have any questions or comments about items on the roadmap? Join the [discussion](https://github.com/osTicket/roadmap/discussions)!
 
-The roadmap repository is for communicating osTicket’s roadmap. Issues are currrently limited to core collaborators only - with plans to open discussions to the public in the near future.
+The roadmap repository is for communicating osTicket’s roadmap. Issues are currently limited to core collaborators only however, community feedback is welcomed in the roadmap [discussions](https://github.com/osTicket/roadmap/discussions).
 
 ## Guide to the roadmap
 
-Every item on the roadmap is an issue, with a label that indicates each of the following:
+osTicket 2.0 is being developed in cycles where we have a set period of time to complete the assigned projects for each cycle. After each cycle, we will have a short cooldown phase to plan for the next cycle as well as address issues in the legacy codebase.
 
-- A **release phase** that describes the next expected phase of the roadmap item. See below for a guide to [release phases](#release-phases).
-- Once a feature is delivered, the **shipped** label will be applied to the roadmap issue and the issue will be closed with a comment linking to the relevant changelog.
+The roadmap is arranged on a project board to give a sense for how far out each item is on the horizon. Be sure to read the [disclaimer](#disclaimer) below since the roadmap is subject to change, especially further out on the timeline.
 
-## Release phases
+Every item on the roadmap is an issue that represents a project, with a status that tracks the progress of each project.
 
-Release phases indicate the stages that a feature goes through, from early testing to general availability.
+- A **phase** describes the status of the roadmap item's progress. See below for a guide to [phases](#roadmap-phases).
+- Once a feature has been completed, it will move to the **Done** phase and the issue will be closed.
+- Projects that were not completed within the set timeframe will be closed and moved back to the **Todo** phase for reevaluation and will become a project for a future cycle.
 
-- **alpha:** *Primarily for testing and feedback*\
-Limited availability, features still under heavy development, and subject to change. Not for ready for production use
+## Roadmap phases
 
-- **beta:** *Publicly available in full or limited capacity*\
-Features mostly complete and documented. Timeline and requirements for GA usually published.
+Phases indicate the development stages that a feature goes through.
 
-- **ga:** *Generally available to all users*\
-Ready for production use and fully documented.
+- **R&D:** *Feature for Upcoming Cycle*\
+The feature is scheduled to be worked on in the next upcoming cycle. During this phase, the Assignee for the Issue is planning out how they will complete this project as well as the proposed Scope of the project.
 
-Some of the features may still be in the exploratory stages, and have no timeframe available. These are included in the roadmap only for early feedback. These are marked as follows:
+- **Pitched:** *In Discussion With Developers*\
+At this phase, the Assignee will present their proposed plan for completing the project to the other developers. Through this discussion, we will decide if any changes need to be made to the project plan.
 
-- **in design:**\
-Feature in discovery phase. Development is planned, but are still figuring out _how_.
+- **Scope:** *Project Plan is Complete*\
+In this phase, the project is completely scoped out with a clear game plan in place to be completed in the upcoming cycle.
 
-- **exploring:**\
-Feature under consideration. We are considering building this feature, and gathering feedback on it.
+- **Coding:** *Development In Progress*\
+The development cycle is in progress, and the project is actively being worked on.
 
-## Roadmap stages
+- **Review:** *Pull Requests Made*\
+The assigned developer has completed the project and created a Pull Request to be reviewed, revised, and merged.
 
-The roadmap is arranged on a project board to give a sense for how far out each item is on the horizon. Every product or feature is added to a particular project board column according to the quarter in which it is expected to ship next. Be sure to read the [disclaimer](#disclaimer) below since the roadmap is subject to change, especially further out on the timeline.  You'll also find an **Exploratory** column, which is used in conjunction with the **in design** and **exploring** release phase labels for when no timeframe is yet available.
+- **Done:** *All Pull Requests Merged*\
+All relevant Pull Requests for this project have been merged and the feature is complete.
+
+Features that are not currently part of a cycle will have a status of **Todo** or **Dreams**.
+
+- **Todo:** *Features We Must Have*\
+Issues in this category are features that are essential to the codebase that must be completed.
+
+- **Dreams:** *New Features We Would Like to Have*\
+This phase is for features we do not currently have that we would like to work on once we have completed all of the Todo's. Additionally, a developer may choose to work through one of these items during Cooldown phases.
 
 ## Disclaimer
 
